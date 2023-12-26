@@ -3,8 +3,8 @@ import { defineConfig } from "@solidjs/start/config";
 export default defineConfig({
   start: {
     middleware: "./src/middleware.ts",
-    server: {
-      preset: "node",
-    }
+    // server: {
+    //   preset: "node",
+    // }
   }
 });
