@@ -4,7 +4,7 @@ export default defineConfig({
   start: {
     middleware: "./src/middleware.ts",
     server: {
-      preset: "zeabur",
+      preset: "node",
     }
   }
 });
